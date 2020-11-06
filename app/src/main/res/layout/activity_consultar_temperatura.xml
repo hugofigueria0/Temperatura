@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/dimensMargemAtividades"
+    android:orientation="vertical"
+    tools:context=".ConsultarTemperaturaActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200"
+        android:gravity="center"
+        android:padding="@dimen/paddingLabels"
+        android:text="@string/f"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewTemperaturaF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:gravity="center_horizontal|center_vertical"
+        android:padding="@dimen/paddingLabels"
+        android:textSize="18sp"
+        tools:text="56" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/paddingEnreInputs"
+        android:background="@color/teal_200"
+        android:gravity="center"
+        android:padding="@dimen/paddingLabels"
+        android:text="@string/c"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewTemperaturaC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:padding="@dimen/paddingLabels"
+        android:textSize="18sp"
+        tools:text="20" />
+</LinearLayout>
