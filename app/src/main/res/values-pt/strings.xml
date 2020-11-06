@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Conversão da temperatura</string>
+    <string name="temperatura">Temperatura</string>
+    <string name="unidade">Unidade</string>
+    <string name="f">Fº</string>
+    <string name="c">Cº</string>
+    <string name="_56">56</string>
+    <string name="_20">20</string>
+</resources>

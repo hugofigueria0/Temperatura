@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">My Application</string>
-    <string name="temperatura">Temperatura</string>
-    <string name="unidade">Unidade</string>
+    <string name="app_name">Temperatute conversion</string>
+    <string name="temperatura">Temperature</string>
+    <string name="unidade">Units</string>
     <string name="f">Fº</string>
     <string name="c">Cº</string>
     <string name="_56">56</string>
