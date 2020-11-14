@@ -7,4 +7,5 @@
     <string name="c">Cº</string>
     <string name="_56">56</string>
     <string name="_20">20</string>
+    <string name="InsiraTemperaturaValida">Introduza uma temperatura valida</string>
 </resources>

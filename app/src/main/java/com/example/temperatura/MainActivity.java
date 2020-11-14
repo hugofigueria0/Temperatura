@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         }catch (NumberFormatException e){
 
             e.printStackTrace();
-            editText.setError("Introduza uma temperatura valida");
+            editText.setError(getString(R.string.InsiraTemperaturaValida));
             editText.requestFocus();
             return;
         }
